@@ -1,0 +1,520 @@
+********
+유니티 헬가슨 아저씨
+게임브리오엔진(와우엔진)
+*****************************************
+컨트로 RR 누르면 리네임 할 수 있음
+*****************************************
+
+call stack 위에서부터 하나씩 처리한다
+
+DFS(왼쪽, 오른쪽, 위 , 아래 선택한 순서대로 탐색)
+BFS(위에서 층별로 탐생)
+10층이면 10층부터 9층 8층 식으로 아래로 검색
+
+************************
+C언어는 위에서 부터 실행되기때문에 순서가 잘못되면
+에러남 
+그래서 int main()을 제일 아래에 놓고 int A처럼 선언을
+위로 빼서 먼저 선언을 하게 되면 오류 확률을 줄일수 있음
+
+헤더파일이 하는 역할은 선언만 하는 역할(있다고 얘기해줘야함)
+) 가져다 쓸때extern int XXXX() 
+->하위 항목은 하위소스 파일에 있음
+
+헤더파일에서 가져다 쓸려면
+#include <XXXXXXX.h>
+
+하위소스를 가져다가 선언 하위소스는 소스파일에서 생성
+**************
+말로 표현 가능하게 만드는게 만들때나 볼때나 확인 및
+처리하기가 쉬움 
+그리고 단계 순서를 설정하는게 좋음
+1 다음은 2 다음은 3 다음 4 식으로 
+void
+***************
+벡터 내적 방향 검색해보시오
+***************
+컴퓨터가 하는 일이 함수를 다루는 것
+********
+유니티로 만든 게임 >>> 템플런(아이폰)
+유니티는 게임 엔진 만드는게 목적이었음(돈)
+모바일 특화
+
+언리얼은 FPS가 특화 
+왜? 퀘이크부터 언리얼토너먼트까지 다 FPS(본류)
+자동차 엔진, 영화쪽으로
+**********
+minidump
+오류체크
+***********
+퍼셉션 함수를 통해 (시각, 청각, 촉각)
+***********
+Delta location(변화량 위치)
+컨트로 RR 누르면 리네임 할 수 있음
+add relaitive rotation =회전
+void 함수
+if = branch (분기 , true or false)
+for each(범위 포문)
+**********
+** 찾으면 다 나와 하지만 니가 해봐야 알겠찌?
+C++
+아침 과제
+1-52 숫자를 임의로 중복 되지 않게 
+뽑아 주는 프로그램 만들어 주세요.
+
+gitbub에 푸시하고 링크를 주세요.
+
+트럼프에서 4장 뽑아주세요. 너 두장 나 두장
+1-45까지 6개 공 뽑아주세요.
+
+C++ 에서 main을 진입점이라고 하며
+#include(포함하다) <iostream> 입출력라이브러리를 쓰겠다
+STL 스탠다드 알고리즘
+GPU, CPU 차이
+
+	cout << &Pocket[0] + 1 << endl;
+	cout << &Pocket[1];
+
+똑같은 출력 방식
+
+ int Pocket[52];//0 ~ 51
+ //int Pocket01 = 0;
+ //int Pocket02 = 0;
+ //int Pocket03 = 0;
+ //int Pocket04 = 0;
+
+작업을 효율적으로 하는게 우리가 할 일
+왜~ 귀찮으니까~ 일을 덜하고 싶으니까
+
+************
+디버깅 하고 싶은 자리에 f9 누른후 f11 누르면서
+어디부터 틀렸는지 찾을수 있다
+for(int Data : Cards) 범위기간 for문
+사람 말을 컴퓨터 언어로 언어를 컴퓨터 언어로 바꾸는 작업
+*****************
+취업과제
+
+숫자 X보다 크거나 같은 수 중 가장 작은 2의 승수(2^n)
+를 NPOT(Next Power of Two)라고 할 떄, 주어진 숫자 N개의
+NPOT를 구하여 모두 XOR 한 값을 구하시오.
+조건 
+1 < X < 2^63
+1 <= N < 2^18
+********************
+
+
+시야각 판별식(입사 문제)
+아군과 적군의 시야를 계산
+
+*****************
+int main()
+{
+	int B = 0; // 중복적으로 쓸 수는 있지만 잘못된 방식
+	{
+		int B = 1;// B가 2개라 오류가 나야하지만
+                                      B밑에 포함되면서 다른애로 인식
+	}
+
+	return 0;
+}
+*****************
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	 float Cards[52] = { 0 ,  };
+	
+	//카드 검색
+	for (int i = 0; i < 52; ++i)
+	{
+		cout << Cards[i] << ", ";
+		
+		//cout << Cards[0] << endl;
+		//cout << Cards[1] << endl;
+		//cout << Cards[2] << endl;
+		//cout << Cards[3] << endl;
+		//cout << Cards[4] << endl;
+		//cout << Cards[5] << endl;
+		//cout << Cards[6] << endl;
+
+	}
+	//cout << endl;
+	//ranged for
+	//for (auto Data : Cards)
+	//{
+	//	cout << Data << ".";
+	//}
+
+	return 0;
+}
+******************
+주석을 통해서 내가 뭘 원하고 나타내고 싶은지 쉽게 파악하기 쉽다
+*****
+srand(time(NULL))
+srand(time(NULL)) 해당 함수를 
+사용해야 랜덤 난수 생성이 가능해진다.
+
+없으면 난수 생성이 아닌, 매번 같은 수를 생성한다.
+
+즉 위 코드가 없으면 rand() 함수를 써도 
+계속 같은 수가 생성된다.
+
+signed int
+정수형 변수 중 부호를 갖는 변수를 선언한다. 정수형
+중 음수는 2의 보수 체계를 사용하므로 이 키워드에
+의해 부호를 사용할 수 있도록 변수 선언할 수 있따. 
+그러나 정수형의 변수에서 unsigned가 없으면 음수를
+사용할 수 있는 부호를 갖는 정수형이 된다. 
+unsigned int
+정수형과 같이 사용되어 부호 비트를 제거해 저장 
+가능한 양수 범위를 두배로 늘이는 역할을 한다.
+char 와 int의 signed 정수형 변수에서 MSB가 부호 비
+트이다. 1이면 음수이고 0이면 양수이다.
+*********
+int main()
+{
+	
+
+	return 0;
+}
+반환형 함수면([인자])
+{
+
+}
+**********
+****************
+선생님 로직
+****************
+#include <iostream>
+
+using namespace std;
+
+void Render()    //랜더를 만드기 위한 빌드
+{
+	char Map[10][10] =
+	{
+		{ '*', '*', '*', '*', '*', '*', '*', '*', '*', '*' },
+		{ '*', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '*' },
+		{ '*', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '*' },
+		{ '*', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '*' },
+		{ '*', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '*' },
+		{ '*', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '*' },
+		{ '*', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '*' },
+		{ '*', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '*' },
+		{ '*', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '*' },
+		{ '*', '*', '*', '*', '*', '*', '*', '*', '*', '*' }
+
+	};
+
+	for (int Y = 0; Y < 10; ++Y) //맵크기를 설정
+	{
+		for (int X = 0; X < 10; ++X)
+		{
+			cout << Map[X][Y];//X,Y값을 넣어서 출력
+		}
+		cout << endl; // 00 넣고 줄바꿈 11넣고 줄바꿈...9,9까지
+	}
+	
+}
+
+int main()
+{
+	 //초기화
+	//init();
+	
+	//Render
+	
+	//for (int i = 0; i <  10; ++i)
+	//{
+	//	cout << Map[i];
+	//}
+	Render();//랜더를 출력
+	return 0;
+}
+****************
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
+
+
+int main()
+{
+	srand(time(0));
+	int NumFour[4] = { 0,0,0,0 };
+	int RandomNum = 0;	
+	int ArrayIndex = 0;
+	bool Wrong = false;
+
+	while (true)
+	{		
+		RandomNum = rand() % 5 + 1;
+		for (int i = 0; i < 4; i++)
+		{
+			if (NumFour[i] == RandomNum)
+			{
+				Wrong = true;
+			}
+		}
+		if (!Wrong)
+		{
+			NumFour[ArrayIndex] = RandomNum;
+			ArrayIndex++;
+		}
+		if (ArrayIndex > 3)
+		{
+			break;
+		}
+		Wrong = false;
+	}
+
+	for (int i = 0; i < 4; i++)
+	{
+		cout << NumFour[i] << " ";
+	}
+
+	return 0;
+}
+
+#include <iostream> 
+#include <algorithm>
+
+#define MAXCOUNT		52
+*****************************
+//black jack
+
+using namespace std;
+
+int main()
+{
+	int Pocket[MAXCOUNT]; // 0 + 1 ~ 51 + 1
+
+	//char CardsType[4] = { '♠', '♣', '♥', '◆' };
+
+	for (int i = 0; i < MAXCOUNT; ++i)
+	{
+		Pocket[i] = i + 1;
+	}
+
+	srand((unsigned int)time(nullptr));
+
+	//random_shuffle(Pocket[0], Pocket[52]);
+	//shuffle, 알고리즘, algorithm
+	for (int i = 0; i < 10000; ++i)
+	{
+		int First = rand() % MAXCOUNT;
+		int Second = rand() % MAXCOUNT;
+		int Temp = Pocket[First];
+		Pocket[First] = Pocket[Second];
+		Pocket[Second] = Temp;
+	}
+
+	int PickCards[4];
+
+	for (int i = 0; i < 4; ++i)
+	{
+		PickCards[i] = Pocket[i];
+	}
+
+	int PlayerScore = 0;
+	int ComputerScore = 0;
+
+	//고른 카드 출력
+	for (int i = 0; i < 4; ++i)
+	{
+		int CardType = PickCards[i] / 13;
+
+		//cout << CardsType[CardType] << endl;
+		if (CardType == 0)
+		{
+			//Spade
+			cout << "♠ ";
+		}
+		else if (CardType == 1)
+		{
+			//Clover
+			cout << "♣ ";
+		}
+		else if (CardType == 2)
+		{
+			//Heart
+			cout << "♥ ";
+		}
+		else //(CardType == 3)
+		{
+			//Diamond
+			cout << "◆ ";
+		}
+
+		int CardNumber = (Pocket[i] % 13) + 1;
+		if (CardNumber == 11)
+		{
+			//J
+			cout << "J " << endl;
+		}
+		else if (CardNumber == 12)
+		{
+			//Q
+			cout << "Q " << endl;
+		}
+		else if (CardNumber == 13)
+		{
+			//K
+			cout << "K " << endl;
+		}
+		else
+		{
+			//숫자
+			cout << CardNumber << endl;
+		}
+
+		if (i < 2)
+		{
+			//Com
+			if (CardNumber > 10) // 11, 12, 13. J Q K
+			{
+				ComputerScore += 10;
+			}
+			else
+			{
+				ComputerScore += CardNumber;
+			}
+		}
+		else
+		{
+			//Player
+			if (CardNumber > 10) // 11, 12, 13. J Q K
+			{
+				PlayerScore += 10;
+			}
+			else
+			{
+				PlayerScore += CardNumber;
+			}
+		}
+	}
+
+	if (ComputerScore > 21)
+	{
+		cout << ComputerScore << " : " << PlayerScore << endl;
+		cout << "Player Win" << endl;
+	}
+	else if (PlayerScore > 21)
+	{
+		cout << ComputerScore << " : " << PlayerScore << endl;
+		cout << "Computer Win" << endl;
+	}
+	else if (ComputerScore > PlayerScore)
+	{
+		cout << ComputerScore << " : " << PlayerScore << endl;
+		cout << "Computer Win" << endl;
+	}
+	else
+	{
+		cout << ComputerScore << " : " << PlayerScore << endl;
+		cout << "Player Win" << endl;
+	}
+
+
+	return 0;
+}
+
+*************************
+
+#include <iostream>
+
+using namespace std;
+
+void clearScreen()
+{
+	system("cls");
+}
+
+int main()
+{
+	while (true)
+	{
+		clearScreen();
+		Draw();
+	}
+	return 0;
+}
+*************************************************************************
+밑에 두개 한번씩 복사해서 붙혀서 실행해봐 그럼 차이를 알게 될거야
+*************************************************************************
+위에건 둘 다 답이 바뀌어서 출력되지만 아래 로직은 위에건 바뀌어서
+출력되지만 아래건 바뀌지 않고 출력됨
+#include <iostream>
+
+using namespace std;
+
+
+void Swap(int& A, int& B)
+{
+
+	int Temp = A;
+		A = B;
+		B = Temp;
+		cout << A << endl;
+		cout << B << endl;
+}
+
+//pointet
+//dynamic memory
+int main()
+{
+	int A = 10;
+	int B = 20;
+
+	Swap(A, B);
+	
+	cout << A << endl;
+	cout << B << endl;
+	
+	return 0;
+}
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#include <iostream>
+
+using namespace std;
+
+
+void Swap(int A, int B)
+{
+
+	int Temp = A;
+		A = B;
+		B = Temp;
+		cout << A << endl;
+		cout << B << endl;
+}
+
+//pointet
+//dynamic memory
+int main()
+{
+	int A = 10;
+	int B = 20;
+
+	Swap(A, B);
+	
+	cout << A << endl;
+	cout << B << endl;
+	
+	return 0;
+}
+***********************************************************************
+위에건 둘 다 답이 바뀌어서 출력되지만 아래 로직은 위에건 바뀌어서
+출력되지만 아래건 바뀌지 않고 출력됨
+***********************************************************************
+
+
+
+
+
+
+
+
+

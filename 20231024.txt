@@ -1,0 +1,374 @@
+https://www.youtube.com/watch?v=IyfgsEz_EAE(드래곤볼 플립북)
+https://www.youtube.com/watch?v=hu59FcHTROU(윌레스과 그로밋)
+https://www.youtube.com/watch?v=zDYd7E1NdkU(셀애니메이션)
+https://www.youtube.com/watch?v=S6st6cD_1j8&list=PLWasZ8QFy5dTwASVScEmP1AplHLFFLkDG
+(3D 렌더링)
+
+
+123123123
+Perforce = 유료 공유서버
+subversion = 유료 공유서버(예[던전파이터])
+
+***************
+while(true)
+{
+Input(); 입력(키보드, 마우스, 보이스, 터치, = 이벤트) 
+process(); tick() update()
+render();(그림,애니메이션)
+(위3가지를 합쳐 틱)
+}//frame FPS(프레임퍼세컨드)
+if를 통해서 계속 물어봐주는것
+추상을 현실로
+******
+내컴퓨터 보기에서 오른쪽 파일확장명이랑 숨긴항목 항상 표시
+******
+window키+r 눌러서 나온 창에 cmd라고 바꾸면 
+윈도우 시스템32cmd창 뜸
+employee: $
+cd c:\work
+cd \hellow world
+dir 공간에서 얼마나 쓰는지 파악
+git init(초기화 명령어)
+rm-rf(지우는거니까 치지마삼)
+이름앞에 점이 있으면 숨김파일임
+
+**************
+tortoisegit에서 다운로드
+비쥬얼스튜디오에서 커트롤플러스시프트플러스a 눌러서
+소스파일 생성후 include 만든다음에 컨트롤s 눌러서 저장
+후 f7 빌드후 왼쪽 만든폴더 오른쪽 클릭후
+오픈인폴더인익스플러오열어서 마우스오른쪽클릭후(깃커밋) 
+깃생성
+gitignore.io사이트에서 비쥬얼스튜디로 검색후 생성
+파일을 새노트에 복사 후 저장하는데 파일명을
+.gitignore(txt붙이지 말고 깃이그노어만적어서 저장)
+
+깃허브들어가서 홈에서 왼쪽에 보면  new 눌러서 새방을 만듬
+그후 아래 주소를 눌러서 복사후에
+…or push an existing repository from the command line
+git remote add origin https://github.com/starwars1211/Hellowworld.git
+git branch -M main(깃허브랑 )
+git push -u origin main( 메인에 오리진을 깃으로 푸쉬한다)
+
+깃허브가서 오른쪽 위에 그림 클릭에서 세팅 누른후 디벨롭세팅
+누르면 깃허브 코드 만들수 있음
+코드 오른쪽에 상자2개모양 클릭하면 복사가 됨
+그걸 비주얼스튜디오 뷰 열면 터미널 누르면 사용자 밑에 생성되고
+거기에 붙여넣기해서 엔터치면 깃허브와 컴퓨터가 연결됨
+
+깃허브 주소를 바꿀려고 할때는 
+마우스 우클릭 투토이즈깃 누른후 아랫쪽에 세팅 누름
+왼쪽에 리모트 들어가서 origin 클릭후 
+URL:에 주소 복사하면 거기로 커밋 가능해짐
+
+************************
+
+이름명.sin <- sin파일 열면 기본적으로 저장된거 나옴
+******
+팀개발을위한깃허브(온라인pdf파일 무료임)
+@깃허브 소스파일 관리 스토리 공유
+쓰는 이유는 공짜라서 지원자는 마이크로소프트
+얼마나 커밋했는지 누구나 볼 수 있음
+
+**************
+짐켈러 = 라이젠 만든사람
+C언어는 상수 = 변하지 않는 숫자, 자료, 문자
+정수 = 소수점이 없는 숫자
+변수 = 메모리 공간 잡는다. (숫자)
+문자 -> 숫자 Mapping Code ->임의숫자
+
+******************
+
+if 참이냐 거짓이냐
+
+**********
+COMMIT
+Repository(저장공간) = Local(내가 작업하는거, Remote (gitHub)
+Working Directorys
+CPU = 가산기
+Data Structure
+char 
+int => 4byte
+float
+bool
+Array
+
+int A[10]; 
+int main()
+{
+//절차지향 프로그래밍(순서대로)
+//컴퓨터는 바보, 숫자로 바꾼다.
+****//일을 쪼개서 반복시킨다.
+//컴퓨터할일을 순서대로 적는다.
+}
+entry point
+
+***********
+C++키워드 
+
+alignas
+alignof
+andb
+and_eqb
+asma
+auto
+bitandb
+bitorb
+bool
+break
+case
+catch
+char
+char8_tc
+char16_t
+char32_t
+class
+complb
+conceptc
+const
+const_cast
+constevalc
+constexpr
+
+constinitc
+continue
+co_awaitc
+co_returnc
+co_yieldc
+decltype
+default
+delete
+do
+double
+dynamic_cast
+else
+enum
+explicit
+exportc
+extern
+false
+float
+for
+friend
+goto
+if
+inline
+
+int
+long
+mutable
+namespace
+new
+noexcept
+notb
+not_eqb
+nullptr
+operator
+orb
+or_eqb
+private
+protected
+public
+register reinterpret_cast
+requiresc
+return
+short
+signed
+sizeof
+static
+static_assert
+
+static_cast
+struct
+switch
+template
+this
+thread_local
+throw
+true
+try
+typedef
+typeid
+typename
+union
+unsigned
+using 선언
+using 지시문
+virtual
+void
+volatile
+wchar_t
+while
+xorb
+xor_eqb
+용어 정의 작업하시옹
+
+********************
+if()
+else()
+else if()
+while()
+|| = or
+&& = 앤드
+! = 뭐뭐의 반대
+bool() 참인지 거짓인지 확인한다
+********************
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	
+	int Sum = 0;
+	for (int i = 0; i <= 5; ++i)
+	{
+		Sum =Sum + i * 1;
+		cout << Sum << endl;
+	}
+	
+	return 0;
+
+}
+*****************
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	
+	srand(time(nullptr));
+	bool Decision = ((rand() % 2) == 0);
+
+	rand() % 2 == 0
+
+	if (true)
+	{
+		cout << "짜장" << endl;
+	}
+	else
+	{
+		cout << "짬뽕" << endl;
+	}
+	return 0;
+}
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	
+	//srand(time(nullptr));
+	//bool Decision = ((rand() % 2) == 0);
+	// rand() % 2 == 0
+	
+	bool bIsRunning = true;
+	While (bIsrunning)
+
+	char Key;
+	cin >> Key;
+
+	if (Key == 'a'|| Key == 'A')
+	{
+		cout << "왼쪽" << endl;
+	}
+	else if (Key == 'd'|| Key == 'D')
+	{
+		cout << "오른쪽" << endl;
+	}
+	else if (Key == 'w'|| Key == 'W')
+	{
+		cout << "위" << endl;
+	}
+	else if (Key == 's'|| Key == 's')
+	{
+		cout << "아래" << endl;
+	}
+	else if (Key == 'q' || Key == 'Q')
+	{
+		cout << "종료" << endl;
+	}
+
+	return 0;
+}
+
+#include <iostream>
+#include <conio.h>
+#include <windows.h>
+
+using namespace std;
+
+int main()
+{
+	int PlayerX = 1;
+	int PlayerY = 1;
+	char PlayerShape = 'P';
+	bool bIsRunning = true;
+
+	while (bIsRunning)
+	{
+		int Key = _getch();
+
+		system("cls");
+
+		if (Key == 'a' || Key == 'A')
+		{
+			cout << "왼쪽" << endl;
+			PlayerX--;
+		}
+		else if (Key == 'w' || Key == 'W')
+		{
+			cout << "위" << endl;
+			PlayerY--;
+		}
+		else if (Key == 's' || Key == 'S')
+		{
+			cout << "아래" << endl;
+			PlayerY++;
+		}
+		else if (Key == 'd' || Key == 'D')
+		{
+			cout << "오른쪽" << endl;
+			PlayerX++;
+		}
+		else if (Key == 'q' || Key == 'Q')
+		{
+			cout << "종료" << endl;
+			bIsRunning = false;
+		}
+
+		cout << PlayerX << ", " << PlayerY << endl;
+
+		//x, y 좌표 설정
+		COORD pos = { PlayerX, PlayerY };
+		//커서 이동
+		SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
+		cout << PlayerShape;
+	}
+
+	return 0;
+}
+
+#include <iostream>
+#include <conio.h>
+#include <windows.h>
+
+using namespace std;
+
+int main()
+{
+	bool A = true;
+	bool B = true;
+	bool C = false;
+	if (A || B || !C)
+	{
+		cout << "실행" << endl;
+	}
+
+	return 0;
+}
