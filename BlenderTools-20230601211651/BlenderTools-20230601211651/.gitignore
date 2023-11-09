@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+.temp
+.cache
+*.pyc
+*.log
+*~
+*.swp
+/venv/*
+release/*
